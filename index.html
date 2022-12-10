@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fd8776a3b7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Picture1.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-adjust">
+          <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>
+              Hi, I'm <span>Shubham</span> <br />
+              Joshi from India
+            </h1>
+          </div>
+          <div class="header-Image">
+            <img src="images/DemoImg.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="images/IMG_5410_(1).jpg" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a Full Stack Developer, proficient in Web development & App
+              development. As a Full Stack professional, I am looking to develop
+              robust web applications that support scalability through the use
+              of my technical knowledge and apply my programming and analytical
+              studies in the organization professionally. I have clear
+              understanding of modern technologies & best design practices. Now
+              I am seeking for an opportunity to utilize my skills and abilities
+              in the Information Technology Industry that offers Professional
+              growth while being resourceful, innovative, and flexible. I am
+              always ready for expanding my knowledge/learning’s and it's
+              successful implementation. Frequently praised as adaptable by my
+              peers, I believe to be able to help any company for achieving its
+              goals.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="openTab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <div class="skills-image">
+                <div class="grid-orient-1">
+                  <div><img src="images/JS.png" /></div>
+                  <div><img src="images/HTML.png" /></div>
+                  <div><img src="images/CSS.png" /></div>
+                  <div><img src="images/BOOTSTRAP.png" /></div>
+                  <div><img src="images/REACT.png" /></div>
+                  <div><img src="images/SYSTEM DESIGN.png" /></div>
+                </div>
+                <div class="grid-orient-2">
+                  <div><img src="images/NODE.JS.png" /></div>
+                  <div><img src="images/AWS.png" /></div>
+                  <div><img src="images/REDUX.png" /></div>
+                  <div><img src="images/MY SQL.png" /></div>
+                </div>
+                <div class="grid-orient-2">
+                  <div><img src="images/MONGO DB.png" /></div>
+                  <div><img src="images/GIT.png" /></div>
+                  <div><img src="images/ds.png" /></div>
+                  <div><img src="images/npm.png" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li><span>Web Developement</span><br />Web App Developement</li>
+                <li>
+                  <span>App Developement</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>B.E in Mechanical Engineering</span><br />Qualified with
+                  First Class distinction(8.78 CGPA)
+                </li>
+                <li>
+                  <span>Diploma in Mechanical Engineering</span><br />Qualified
+                  with First Class distinction(87.59%)
+                </li>
+                <li>
+                  <span>SSC (10th)</span><br />Qualified with First Class
+                  distinction(86.40%)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+          <div>
+            <h2>Zen Class Dashboard</h2>
+            <p>Developed Dashboard for zen class in which class can be scheduled, interview can be arranged and also task and query can be raised </p>
+            <a href="	https://zendashback.onrender.com/">Details</a>
+          </div>
+          <div>
+            <h2>Url Shortner App</h2>
+            <p>This app helps to convert large url into short url and also tells total url generated and url generated per month</p>
+            <a href="https://rad-horse-d20de7.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Password Reset App</h2>
+            <p>This apps help to register user and also one can reset password through email
+            </p>
+            <a href="https://stirring-tiramisu-cf1342.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>CRM App</h2>
+            <p>Developed Customer Relationship Management(CRM) app...Where some one can raise leads and request for business
+            </p>
+            <a href="	https://fluffy-creponne-98ff35.netlify.app/">Details</a>
+          </div>
+          <div>
+            <h2>Pagination</h2>
+            <p>Successfully fetch data from API and did logic for Pagination</p>
+            <a href="https://willowy-sunshine-99af35.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Calculator</h2>
+            <p>
+              Successfully created Calculator which can be operated by keyboard
+              keys and user Interface butttons too
+            </p>
+            <a href="https://comforting-nougat-2febc4.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Makeup Website</h2>
+            <p>
+              Successfully fetch data from API...Presented on UI in the form of
+              table...Also applied searching tool to search particular makeup
+              item
+            </p>
+            <a href="https://statuesque-moonbeam-b31d3f.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Personal Portfolio</h2>
+            <p>Successfully design Personel Portfolio page</p>
+            <a href="#">Details</a>
+          </div>
+          <div>
+            <h2>Guvi Page</h2>
+            <p>Successfully design Guvi page includes details regarding</p>
+            <a href="https://magenta-mandazi-bc2f58.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Price Cart</h2>
+            <p>Successfully design Pricing cart</p>
+            <a href="https://mellifluous-taiyaki-b1e268.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Event Page</h2>
+            <p>
+              Successfully design event form which contains image and personal
+              details
+            </p>
+            <a href="https://elegant-lollipop-7c7ec8.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Self Information form</h2>
+            <p>
+              Successfully design Self Information form which contains personal
+              details
+            </p>
+            <a href="https://cozy-zabaione-1b8512.netlify.app">Details</a>
+          </div>
+          <div>
+            <h2>Shopping Cart</h2>
+            <p>
+              Successfully design Shopping Cart in which user can add/remove
+              item from cart
+            </p>
+            <a href="https://glittering-crumble-e84b23.netlify.app">Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>1999shubhamjoshi@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>7020530266</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/#Resume_Shubham Joshi(Software Engineer) (1).pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright..<i class="fa-solid fa-heart"></i>..Made by Shubham Joshi</p>
+    </div>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwJPZ70nTzrEb_-FpZXE8l4TXHLgvQ9qmZjgDGfHQz9AtTJ0HKrWhSmbp-ILB_ojgUC/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
