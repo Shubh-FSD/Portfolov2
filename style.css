@@ -13,6 +13,10 @@ body {
   color: #fff;
 }
 
+ #Projects .Credentials p{
+  display:flex;
+  justify-content: center;
+} 
 
 
 nav {
